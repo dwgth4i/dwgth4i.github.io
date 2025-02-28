@@ -51,8 +51,6 @@ Version: v1.0.3 (9dad6e1) - 02/27/25 - Ronnie Flathers @ropnop
 2025/02/27 21:54:05 >  [+] VALID USERNAME:       purple@shibuya.vl
 2025/02/27 21:54:10 >  [+] VALID USERNAME:       red@shibuya.vl
 ```
-
-## Access on precreated machine accounts
 Found 2 valid username, at this point we can try for ASREPRoast or Password spraying, I tried both, even with a 5000-line custom wordlist and user=pass pattern. So I stuck here for about 2 days then I asked xct for nudge on this. He said they are precreated computer accounts and this is very common in AD and the reason why I didn't get it is because I didn't add the *$* sign at the end of those two accounts, and also he said on kerberos authentication, the *$* will not matter and that is also the reason why kerbrute fetched these two without *$*.
 
 We can see in the below output, with normal NTLM authentication we got **STATUS_NOLOGON_WORKSTATION_TRUST_ACCOUNT**, this is because *red$* is a precreated machine account which require us to change its password on the first time using it and with the Kerberos authentication, we hit it easily.
@@ -89,8 +87,6 @@ Enter new password:
 Enter it again: 
 Password changed.
 ```
-
-## RPC
 Next, with a valid domain computer account, I enumerating the shares on the SMB and got:
 ```
 nxc smb awsjpdc0522.shibuya.vl -u 'red$' -p 'test' --shares
