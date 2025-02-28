@@ -303,7 +303,6 @@ SMB         10.10.114.33    445    AWSJPDC0522      [+] shibuya.vl\simon.watson:
 Now to get access on the machine, remember that we have SSH service on this machine and the **users** share, I will use *ssh-keygen* and put the public key on the Simon.Watson .ssh folder on the share -> we can ssh into the machine with the private key.
 
 ![image](https://github.com/user-attachments/assets/774db87e-4e45-40df-941c-430f00ae90bc)
-
 # Privilege Escalation
 At this point, I will gather all the information on the domain with SharpHound for BloodHound data on the machine since the **LDAP/LDAPS** ports are blocked, or we could use other collectors through socks.
 
@@ -540,8 +539,4 @@ Certipy v4.8.2 - by Oliver Lyak (ly4k)
 [*] Got hash for '_admin@shibuya.vl': aad3b435b51404eeaad3b435b51404ee:<REDACTED>
 ```
 # Conclusion
-<<<<<<< HEAD
 A really nice machine, especially at the starting point, as one of my favorite red teamer said, the box is good/fun only when there is something or some small features that we can learn. 
-=======
-A really nice machine, especially at the starting point, as one of my favorite red teamer said, the box is good/fun only when there is something or some small features that we can learn. 
->>>>>>> 81e64cbc0a0076554aeaafc547507316bedf7bb3
