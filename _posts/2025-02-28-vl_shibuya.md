@@ -1,7 +1,7 @@
 ---
 title: "Vulnlab - Shibuya"
 date: 2025-02-28 12-23-00
-image: "/assets/img/post_covers/shibuya.jpg"
+image: /assets/img/post_covers/shibuya.jpg
 categories: [CTF]
 tags: [Active Directory, Windows, Vulnlab, cross-session relay, ADCS]
 ---
@@ -540,4 +540,8 @@ Certipy v4.8.2 - by Oliver Lyak (ly4k)
 [*] Got hash for '_admin@shibuya.vl': aad3b435b51404eeaad3b435b51404ee:<REDACTED>
 ```
 # Conclusion
+<<<<<<< HEAD
 A really nice machine, especially at the starting point, as one of my favorite red teamer said, the box is good/fun only when there is something or some small features that we can learn. 
+=======
+A really nice machine, especially at the starting point, as one of my favorite red teamer said, the box is good/fun only when there is something or some small features that we can learn. 
+>>>>>>> 81e64cbc0a0076554aeaafc547507316bedf7bb3
