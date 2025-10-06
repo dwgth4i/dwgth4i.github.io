@@ -1,6 +1,7 @@
 ---
 title: "Thoughts on CAPE"
 date: 2025-10-3
+image: /assets/img/post_covers/cape.png
 categories: [misc]
 tags: [cape]
 ---
@@ -11,7 +12,6 @@ Cuối cùng cũng nhặt được cái "áo choàng" hehe, cho anh em nào th�
 
 # CERTIFIED ACTIVE DIRECTORY PENTESTING EXPERT
 
-![alt text](/assets/img/posts/cape.png)
 
 Như syllabus của chứng chỉ này đề ra thì sẽ không giới hạn về mặt kĩ thuật của các concept bao gồm:
 
