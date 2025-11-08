@@ -92,4 +92,4 @@ Set the argument of the CustomAction to *```"[TARGETDIR]trigger.vbs"```*
 
 ![alt text](/assets/img/posts/2975619283981239.png)
 
-The installation can now be exit peacefully and we can proceed to make process for the stage 2 beacon. That is pretty much it for this blog, this is not new hence still a really cool initial access technique that I learned from @mgeeky, I ran so smoothly because the motw is not an issue in this lab, for a real life attack, the *container* for our trigger should be something that could bypass it, like a .lnk, .hta, ... not so fancy but it did the job.   
+The installation can now be exit peacefully and we can proceed to make process for the stage 2 beacon. That is pretty much it for this blog, this is not new hence still a really cool initial access technique that I learned from @mgeeky, I ran so smoothly because the motw is not an issue in this lab, for a real life attack, the *container* for our trigger should be something that could bypass it, like a .lnk, .hta, ... and pack them up with iso or zip it, not so fancy but it did the job.   
