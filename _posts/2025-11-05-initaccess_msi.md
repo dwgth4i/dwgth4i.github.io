@@ -17,7 +17,7 @@ These should be the key points to look for and analyze if you are a blue teamer,
 
 # Sharpening our knife (C2, Evasion, ...)
 ## Mythic (Stage 1)
-Here in this demonstration, I will ultilize MythicC2 for the stage 1, the reason for this is (Merlin)[https://github.com/MythicAgents/merlin] agent, this agent is lesser well-known and it can fly through AV like nothing, another thing is, this agent has less functions compares to other which is lightweight and fit for the requirements of the stage 1 beacon.
+Here in this demonstration, I will ultilize MythicC2 for the stage 1, the reason for this is [Merlin](https://github.com/MythicAgents/merlin) agent, this agent is lesser well-known and it can fly through AV like nothing, another thing is, this agent has less functions compares to other which is lightweight and fit for the requirements of the stage 1 beacon.
 
 ![alt text](/assets/img/posts/merlin_agent.png)
 
