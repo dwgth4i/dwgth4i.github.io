@@ -4,13 +4,21 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-I'm a dude with a deep passion for offensive security, particularly Windows internals and Active Directory. I've been continuously learning and exploring the intricacies of how systems work—and how they can be secured (or compromised), when I'm not diving into security research or setting up lab environments, you can find me on a random football field or some ranked fighting game.
+Hey, I'm dwgth4i, I enjoy playing CTF on HackTheBox and VulnLab and in the free time, I study all the side about Red Teaming and Windows.
+
+Formerly I do a lot of Web, but now I'm mostly learning/focusing on:
+
+- Kernel Exploitation
+- Windows IPC
+- Active Directory
+- Malware Development
+
+You can find me on Discord as **dwgth4i** :)
 
 # Certifications
 - Certified Penetration Tester Specialist (CPTS)
 - Certified Active Directory Pentesting Expert (CAPE)
 - Certified Red Team Operator (CRTO)
-- Certified Red Team Operator (CRTL)
 # Trainings
 - 2025 - Sektor7 Advanced Malware Development
 - 2025 - Sektor7 Intermediate Malware Development
