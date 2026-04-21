@@ -8,7 +8,7 @@ tags: [cape]
 
 # Opening
 
-Cuối cùng cũng nhặt được cái "áo choàng" hehe, cho anh em nào thắc mắc về độ khó thì nếu như làm nhiều (rất nhiều) lab/box AD thì thật ra đề thi cũng không quá đáng sợ như mình nghĩ, tuy nhiên thì flag đầu vẫn tốn một ngày rưỡi :v 5 flag đầu sẽ khó hơn nhiều so với 5 flag sau, đấy là cảm nhận riêng của mình, còn phía dưới thì anh em mình nói về kĩ thuật một tí nhé.
+Năm ngoái thì có được cái kiếm, năm nay mình lụm cái áo choàng, cho anh em nào thắc mắc về độ khó thì nếu như làm nhiều (rất nhiều) lab/box AD thì thật ra đề thi cũng không quá đáng sợ như mình nghĩ, tuy nhiên thì flag đầu vẫn tốn một ngày rưỡi :v 5 flag đầu sẽ khó hơn nhiều so với 5 flag sau, đấy là cảm nhận riêng của mình, còn phía dưới thì anh em mình nói về kĩ thuật một tí nhé.
 
 # CERTIFIED ACTIVE DIRECTORY PENTESTING EXPERT
 

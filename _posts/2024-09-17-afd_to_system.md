@@ -1,5 +1,5 @@
 ---
-title: "Arbitrary file delete to SYSTEM (Part 1)"
+title: "Arbitrary file delete to SYSTEM"
 date: 2024-09-17
 categories: [research]
 tags: [Windows]
