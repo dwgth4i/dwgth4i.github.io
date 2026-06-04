@@ -1,12 +1,12 @@
 ---
-title: "CVE-2025-29969 (Part 1)"
+title: "MS-EVEN Authentication Coercion"
 date: 2026-04-17
 image: /assets/img/post_covers/itachi.jpg
 categories: [exploit]
 tags: [Windows, lpe, exploit development]
 ---
 
-In this blog I will try to replicate CVE-2025-29969, one PoC for the file existence check, another one would be for the Arbitrary File Write that could lead to RCE/Lateral Movement in AD environments. And the problem I ran into while trying to develope the exploits. This is a bug within Eventlog Service in Microsoft Windows in remote procedure call (RPC) protocols, specifically MS-EVEN protocol, and this was heavily inspired by this [blog](https://www.safebreach.com/blog/safebreach_labs_discovers_cve-2025-29969/).
+This post was originally to be a about CVE-2025-29969, but I did not have time for the rest so I will only demonstrate the process of finding the authentication coercion in MS-EVEN 
 
 # Looking for attack surface
 
@@ -288,4 +288,4 @@ In DC machine or any other domain machine, we can execute the poc (you can do ot
 
 ![alt text](/assets/img/posts/78189273293842348419.png)
 
-So the idea of auth coercion is indeed valid, and I can understand about 80% of the function without reversing it so that might save us a quite amount of time, and don't forget about how the service check the file if it was the real evtx since the next part I will discuss about the real vulnerability.
+So the idea of auth coercion is indeed valid, and I can understand about 80% of the function without reversing it so that might save us a quite amount of time, and don't forget about how the service check the file if it was the real evtx since the next part I will discuss about the real vulnerability if I got any time :D
